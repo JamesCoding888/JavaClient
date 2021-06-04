@@ -9,7 +9,7 @@ public class GetWebData{
         String path = "http://localhost:8080/JavaWeb20210603/index.html";
         URL url = new URL(path);
         String html = new Scanner(url.openStream())
-                .useDelimiter(">")
+                .useDelimiter("\\A")
                 .next();
         System.out.println(html);
     }
