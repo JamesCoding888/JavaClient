@@ -3,7 +3,7 @@ package com.client;
 
 import java.net.URL;
 import java.util.Scanner;
-//
+
 public class GetWebData{
     public static void main(String[] args) throws Exception{
         String path = "file:///C:/Users/jamesliao/Documents/NetBeansProjects/JavaWeb20210531/src/main/webapp/index.html";
